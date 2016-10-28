@@ -1,0 +1,472 @@
+﻿@media (max-width: 1366px) and (min-width: 1100px) {
+
+body {
+	font-family: Arial, "Times New Roman", sans-serif, Verdana Regular;
+	font-size: 12pt;
+	margin: 0;
+	padding:0;
+	width: 100%;
+}
+
+html { 
+ overflow-x: hidden; /* Убираем полосы прокрутки во всех браузерах */
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+#header img {
+	width: 100%;    
+}
+
+
+#images {
+    float: left;
+    left: 0;
+    margin: auto;
+    position: absolute;  
+    right: 935px;		/* Положение от правого края */
+    top: 65px;
+    width: 20%;
+}
+
+
+
+#content_header {
+	float: left;
+	height: 1px;
+	position: relative;
+	top: -62px;
+	right: -62px;
+	font-size: 10pt;
+	font-family: Verdana Regular;    /* Шрифт текста */	
+}
+
+#content_header td a{
+	text-decoration: none;
+	color: #616161;
+	margin: 15px;
+}
+
+
+#content_header table {
+
+	float: left;
+	height: 1px;
+	position: relative;
+	
+	top: -115px;
+	right: -515px;
+	font-size: 10pt;
+
+}
+
+#content_header table td {
+	border-right: 1px solid #363636;
+	padding: 0 1px;
+}
+
+#content_header .last {
+	border: none;
+	padding-right: 0;
+}
+
+
+#RSS{
+	float: right;
+    margin: auto;
+    position:relative;  
+    right: 458px;		/* Положение от правого края */
+    top: -175px;
+}
+
+#RSS a {
+	text-decoration: none;
+}
+
+#RSS img{
+	width: 16px;
+	
+}
+
+#posts_header {
+	float: left;
+	position: relative;
+	top: -177px;
+	right: -635px;
+	font-family: Verdana Regular;    /* Шрифт текста */
+	font-size: 10pt;
+	
+}
+
+#posts_header table td {
+	border-right: 1px solid #363636;
+	padding: 1px;
+	
+}
+
+
+#posts_header  td a {
+	text-decoration: none;
+	color: #a9a9a9;
+	margin: 20px;
+}
+
+#posts_header span {
+	color: #6e6e6e;
+}
+
+#posts_header .last {
+	border: none;
+	padding-right: 0;
+}
+
+
+#search {
+	float: right;
+	background-color: #111111;
+    border-radius: 10px; /* закругление углов для всех, кто понимает */
+	position: relative;
+	right: 74px;
+	top: -140px;
+	border-bottom: 1px solid #282828; /* Добавляем одну линию внизу таблицы */ 
+}
+
+
+.image{
+	width: 27px;
+	height: 27px;
+}
+
+#search div {
+	margin-top: -4px;
+}
+
+#search div input {
+
+	border: none; /* Убираем все border у таблицы */
+	background-color: #111111;
+	color: #5d5d5d;
+	height: 37px;
+	padding-left: 5px;
+	width: 342px;
+}
+
+
+#topmenu {
+	background-color: #2f2f2f;
+	margin-top: -5px;
+	height: 43px;
+}
+
+#topmenu ul {
+	display: table;
+	float: left;
+	list-style: outside none none;
+	margin: -68px 0 0 -146px;
+	padding: 1px 40px 20px 187px;
+	width: 100%;
+	font-family: Arial Bold; 
+	font-size: 10pt;
+}
+
+
+
+
+
+#topmenu ul li a {
+	float: left;
+	color: #9c9c9c;
+	display: block;
+	font-weight: bold;
+	padding: 35px;
+	line-height: 1px;
+	text-align: center;
+	text-decoration: none;
+}
+   
+ #topmenu ul li a:hover {
+	font-size: 110%;
+}  
+
+.separator {
+	border-top: 1px solid #161616;
+	height: 1px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+
+
+#products {
+	width: 100%;
+	margin-top: -1px;
+	background-image: url(images/bd_center.jpg);
+	background-repeat: repeat;
+}
+
+#products .image {
+	background-color: #1f1f1f;
+	opacity: 0.71; /* Полупрозрачность элемента */
+	text-align: center;
+}
+
+#products .horizontal_separator {
+	border-top: 10px solid rgba(38, 38, 38, 0.50);
+	margin-top: 0px;
+	width: 100%;
+}
+
+#products  table{
+	width: 94%;
+	margin-left: 41px;
+}
+
+#products table table {
+	
+	border: 10px solid rgba(38, 38, 38, 0.50);
+	border-radius: 10px;
+	width: auto;
+	margin: 15px;
+}
+
+#products .comment  {
+	color: #5d5d5d;
+	font-family: Verdana Regular; 
+	font-size: 11pt;
+	background: rgba(38, 38, 38, 0.50); /* Полупрозрачность фона */
+	padding-top: 10px;
+}
+
+
+
+#products .read{
+	background: rgba(04, 04, 04, 0.68); /* Полупрозрачность фона */
+	font-family: Verdana Regular; 
+	font-size: 13pt;
+	width: 59%;
+}
+
+#products .read img {
+	margin-bottom: -4px;
+}
+
+
+
+#products title, #products .read, #products .rating   {
+	color: #5d5d5d;
+}
+
+#products .rating {
+	font-size: 18pt;
+	background: rgba(38, 38, 38, 0.50); /* Полупрозрачность фона */
+	font-weight: bold;
+	 
+}
+
+ #products .rating span  {
+	color: #e3cd16;
+}
+
+#products .title   {	
+	text-align: left;
+	padding-left: 13px;
+}
+
+#products .horizontal_separator {
+	border-bottom: 10px solid rgba(38, 38, 38, 0.50);
+	margin-bottom: 0px;
+	width: 100%;
+
+}
+
+#pagination table  {
+		
+	font-family: Verdana Bold; 
+	font-size: 14pt;
+	background: rgba(32, 32, 32, 0.50); /* Полупрозрачность фона */
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 59px;
+	width: 91%;	
+}
+
+#pagination table a {
+	background-color: #1c1c1c;
+	color: #393939;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+
+#pagination td.active a, #pagination td a:hover {
+	background-color: #0b0b0b;
+}
+
+
+#pagination table  table {
+	border: none;		
+	background: none;	
+}
+
+#pagination .left {
+	width: 60%;
+	color: #4a4a4a;
+	padding-left: 14px;
+}
+
+#pagination .left span {
+	color: #757575;
+}
+
+
+#pagination .pages {
+	text-align: right;
+	padding-left: 20px;
+}
+
+
+#footer {
+	background-color: #121212;
+	
+}
+
+#footer  table {
+	margin-left: 20px;
+	padding: 10px;
+	width: 105%;
+}
+
+#footer  table table {
+	width: auto;
+}
+
+#footer table a {
+	color: #4a4a4a;
+	display: block;
+	font-size: 14pt;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+#footer  h1  {
+	color: #ffffff;
+	font-size: 17pt;
+}
+
+
+#footer span {
+	color: #a2a2a2;
+}
+
+#footer .about {
+	margin-bottom: 126px;
+	font-family: Verdana Regular; 
+}
+
+#footer .popular {
+	margin-bottom: 126px;
+	font-family: Verdana Regular; 
+}
+
+#footer .social {
+	margin-bottom: 135px;
+}
+
+#footer .social img {
+	margin: 5px;
+}
+
+
+#updated {
+	margin-bottom: 55px; /* Поднял весь блок с внутренней таблицей */
+	padding: 0;  /* Сбросил отступы до нуля */   
+}
+
+#updated img {
+	width: 234px; 
+	height: 134px;
+	position: relative;
+	top: -17px;
+}
+
+#updated p {
+	color: #4a4a4a;
+	font-family: Verdana Regular; 
+	font-size: 12pt;
+	margin: 0;  
+	padding-left: 22px; /* Сдвигаем текст вправо */
+	position: relative;
+	top: -122px;
+}
+	
+#updated span {
+	color: #b9b9b9;
+}
+
+#copyright {
+	background-color: #000000;
+	font-family: Verdana Regular; 
+	font-size: 11pt;
+	margin-top: -68px;
+	
+}
+
+
+#copyright a {
+	color: #4a4a4a;
+	text-decoration: none;
+	border-right: 1px solid #363636;
+	padding: 0 20px;
+	
+}
+
+#copyright p {
+	color: #4a4a4a;
+	padding-left: 61px; /* Сдвигаем текст вправо */
+}
+
+#copyright span {
+	color: #757575;
+}
+
+#copyright table {
+	width: 100%;
+}
+
+#copyright table table{
+	width: auto;
+	padding: 15px;
+	margin-right: 50px; /* Сдвигаем текст-ссылки влево */
+}
+
+#content_footer .last a{
+	border: none;
+	padding-right: 0;
+}
+	
+
+.footer_separator {
+	border-bottom: 1px solid #202020;
+	padding: 1px; /* Отступим 1px как в шаблоне */
+	top: 10px;
+	width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
